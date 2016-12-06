@@ -1,0 +1,53 @@
+
+C:\Users\zhanghan\Desktop\课件>git init
+
+C:\Users\zhanghan\Desktop\课件>git clone https://github.com/nhgg/Javascript20161
+4-1.git
+
+
+C:\Users\zhanghan\Desktop\课件>ls
+Javascript201614-1
+
+C:\Users\zhanghan\Desktop\课件>cd Javascript201614-1\
+
+
+推送：重复 123 页端New pull request
+C:\Users\zhanghan\Desktop\课件\Javascript201614-1>git add .
+
+C:\Users\zhanghan\Desktop\课件\Javascript201614-1>git commit -m"new"
+
+C:\Users\zhanghan\Desktop\课件\Javascript201614-1>git push origin master
+
+
+
+
+C:\Users\zhanghan\Desktop\课件\Javascript201614-1>git add -A
+
+C:\Users\zhanghan\Desktop\课件\Javascript201614-1>git commit -m"new"
+[master fd93ce6] new
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 aa/123.txt
+
+C:\Users\zhanghan\Desktop\课件\Javascript201614-1>git push origin master
+Username for 'https://github.com': nhgg
+Password for 'https://nhgg@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (1/1), done.
+Writing objects: 100% (2/2), 229 bytes | 0 bytes/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/nhgg/Javascript201614-1.git
+   8fd4e83..fd93ce6  master -> master
+
+C:\Users\zhanghan\Desktop\课件\Javascript201614-1>cd ..
+
+C:\Users\zhanghan\Desktop\课件>cd Javascript201614-1
+
+C:\Users\zhanghan\Desktop\课件\Javascript201614-1>git add .
+
+C:\Users\zhanghan\Desktop\课件\Javascript201614-1>git commit -m"444"
+[master 7f86df9] 444
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 444.txt
+
+C:\Users\zhanghan\Desktop\课件\Javascript201614-1>git push origin master
